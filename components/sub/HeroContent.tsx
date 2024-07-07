@@ -24,12 +24,12 @@ const HeroContent = () => {
 
         <motion.div
         variants={slideInFromLeft(0.5)}
-        className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
+        className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[800px] w-auto h-auto'
         >
           <span>
-            Providing 
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-            project experience
+            Making web a better place, 
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> one commit </span>
+            at a time.
           </span>
         </motion.div>
 
@@ -37,11 +37,14 @@ const HeroContent = () => {
         variants={slideInFromLeft(0.8)}
         className='text-lg text-gray-400 my-5 max-2-[600px]'
         >
-          I&apos;m a fullstack developer with a passion for creating beautiful and functional websites. 
-          I specialize in React, Next.js, and Tailwind CSS. 
-          I&apos;m always looking for new opportunities to learn and grow as a developer.
+          Hi, I&apos;m <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Adwait</span>, 
+          a dedicated full-stack developer with a passion for creating seamless web experiences. 
+          I specialize in Next.js, React, and Node.js, and I am always eager to learn and take on new challenges in the world of web development.
         </motion.p>
         <motion.a
+        href="https://drive.google.com/drive/folders/1cIt2N9FYDrjQUUFDNqV_FFM7J9NDYtYs?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
         variants={slideInFromLeft(1)}
         className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
         >

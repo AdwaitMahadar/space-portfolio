@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const Skill_data = [
     {
       skill_name: "Html 5",
@@ -82,16 +84,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "GMail",
+      src: "/gmail-icon-logo.svg",
+      url: "mailto:adwaitmahadar@gmail.com",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "Github",
+      src: "/github-mark-white.svg",
+      url: "https://github.com/adwaitmahadar",
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "LinekdIn",
+      src: "/linkedin-logo.svg",
+      url: "https://www.linkedin.com/in/adwaitmahadar/",
     },
   ];
   
